@@ -1,0 +1,404 @@
+@media (min-width: 600px ) {
+    .container {
+        text-align: center;
+        width: 960px;
+        padding-left: 4%;
+        padding-right: 4%;
+        margin: 0 auto;
+        color: #24292e;
+    }
+}
+
+@media (max-width: 600px ) {
+   .container {
+        text-align: center;
+        width: 375px;
+        padding-left: 4%;
+        padding-right: 4%;
+        margin: 0 auto;
+        color: #24292e;
+    }
+}
+
+@media (min-width: 600px ) {
+    .header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 270px;
+    }
+    
+    .nav ul {
+    font-size: 14.4px;
+    display: flex;
+    list-style: none;
+    }
+    
+    .nav li {
+    padding-left: 30px;
+    }
+    
+    .nav li img {
+    height: 20px;
+    width: 20px;
+    }
+}
+
+@media (max-width: 600px ) {
+    .header {
+        margin: 0 auto;
+    }
+    .logo {
+        line-height: 0;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .nav ul {
+    font-size: 12.8px;
+    line-height: 0px;
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    align-items: center;
+    }
+    
+    .nav li {
+    padding-left: 30px;
+    }
+    
+    .nav li img {
+        height: 20px;
+        width: 20px;
+    }
+}
+
+
+@media (max-width: 600px ) { 
+    .header {
+        display: flex;
+        flex-direction: column;
+        height: 87px;
+    }
+    
+    .nav ul {
+        font-size: 14.4px;
+        display: flex;
+        list-style: none;
+    }
+}
+
+
+.pcmainvisual, .spmainvisual {
+    display: none;
+}
+
+@media (min-width: 600px ) {
+    .pcmainvisual{
+        display: block;
+        margin-bottom: 80px;
+    }
+    
+    .pcmainvisual img {
+        width: 100%;
+        max-width: 1920px;
+        height: 420px;
+        object-fit: cover;
+    }
+}
+
+@media (max-width: 600px ) {
+    .spmainvisual{
+        display: block;
+        margin-bottom: 80px;
+    }
+    
+    .spmainvisual img {
+        width: 100%;
+        height: 420px;
+        object-fit: cover;
+    }
+}
+
+
+@media (min-width: 600px ) {
+    .abouttitle {
+        margin-bottom: 65px;
+    }
+    
+    .aboutcontents {
+        text-align: left;
+    }
+    
+    .name {
+        margin-bottom: 30px;
+    }
+    
+    p {
+        font-family: "hiragino kaku gothic pron";
+        font-size: 14.4px;
+    }
+    
+    .address {
+        line-height: 0.5;
+        margin-bottom: 30px;
+    }
+    
+    .profiletext {
+        margin-bottom: 130px;
+    }
+}
+
+@media (max-width: 600px ) {
+    .abouttitle {
+        margin-bottom: 40px;
+    }
+    
+    .aboutcontents {
+        text-align: left;
+    }
+    
+    .name {
+        margin-bottom: 30px;
+    }
+    
+    .address p {
+        font-family: "hiragino kaku gothic pron";
+        font-size: 14.4px;
+        margin: 0;
+        line-height: 1.6;
+    }
+    
+    .address {
+        margin-bottom: 30px;
+    }
+    
+    .profiletext {
+        margin-bottom: 70px;
+    }
+}
+
+
+
+@media (min-width: 600px ) {
+    .workstitle {
+        margin-bottom: 68px;
+    }
+    
+    .photos ul{
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto 150px;
+        padding: 0;
+        width: 100%;
+    }
+    
+    .photos li {
+        width: 32%;
+        margin:0 2% 2% 0;
+    }
+    
+    .photos img {
+        width: 100%;
+    }
+    
+    .photos li:nth-child(3n) {
+    margin-right: 0;
+    }
+}
+
+@media (max-width: 600px ) {
+    .workstitle {
+        margin-bottom: 43px;
+    }
+    
+    .photos ul{
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto 67px;
+        padding: 0;
+        width: 100%;
+    }
+    
+    .photos li {
+        width: 100%;
+        margin:0 auto 23px;
+    }
+    
+    .photos img {
+        width: 100%;
+    }
+    
+    .photos li:nth-child(3n) {
+    margin-right: 0;
+    }
+}
+
+
+@media (min-width: 600px ) {
+    .news {
+        width: 857.6px;
+        margin: 0 auto 130px;
+    }
+
+    .newstitle {
+        padding-bottom: 65px;
+        border-bottom: 1px solid #C8C8C8;
+    }
+
+    .content {
+        display: flex;
+        margin: 0 auto;
+        padding: 15px auto;
+        border-bottom: 1px solid #C8C8C8;
+    }
+
+    .dates {
+        margin-left: 15px;
+    }
+
+    .texts {
+        margin-left: 80px;
+    }
+}
+
+@media (max-width: 600px ) {
+    .news {
+        width: 345px;
+        margin: 0 auto 70px;
+    }
+
+    .newstitle {
+        padding-bottom: 40px;
+        border-bottom: 1px solid #C8C8C8;
+    }
+
+    .content {
+        margin: 0 auto;
+        padding: 15px auto;
+        border-bottom: 1px solid #C8C8C8;
+    }
+
+    .dates {
+        text-align: left;
+        margin-left: 15px;
+    }
+
+    .texts {
+        text-align: left;
+        margin: 0 15px 15px;
+    }
+}
+
+
+@media (min-width: 600px ) {
+    .contact {
+        width: 857.6px;
+        margin: 0 auto
+    }
+
+    .contacttitle {
+        margin-bottom: 65px;
+    }
+    
+    .forms {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .formname {
+        display: inline-block;
+        line-height: 0;
+    }
+
+    .form input {
+        height: 44px;
+        width: 729px;
+        margin-bottom: 10px;
+        border: 1px solid #C8C8C8;
+    }
+
+    .form  textarea {
+        height: 166px;
+        width: 729px;
+        margin-bottom: 30px;
+        border: 1px solid #C8C8C8;
+    }
+    
+    .submit input {
+        background-color: #24292e;
+        color: white; 
+        height: 52px;
+        width: 200px;
+        margin-bottom: 130px;
+    }
+    
+    .submit input:hover{
+        background-color: white;
+        color: #24292e;
+        border: 1px solid #24292e;
+    }
+}
+
+@media (max-width: 600px ) {
+    .contact {
+        width: 340px;
+        margin: 0 auto
+    }
+
+    .contacttitle {
+        margin-bottom: 40px;
+    }
+    
+    .forms {
+        text-align: left;
+        margin: 0 auto;
+    }
+
+    .formname {
+        display: inline-block;
+        line-height: 0;
+    }
+
+    .form input {
+        height: 44px;
+        width: 340px;
+        margin-bottom: 10px;
+        border: 1px solid #C8C8C8;
+    }
+
+    .form  textarea {
+        height: 166px;
+        width: 340px;
+        margin-bottom: 30px;
+        border: 1px solid #C8C8C8;
+    }
+
+    .submit input {
+        background-color: #24292e;
+        color: white; 
+        height: 52px;
+        width: 200px;
+        margin-bottom: 70px;
+    }
+    
+    .submit input:hover{
+        background-color: white;
+        color: #24292e;
+        border: 1px solid #24292e;
+    }
+}
+
+
+.footer {
+    background-color: #24292e;
+    color: white;
+    font-family: "hiragino kaku gothic pron";
+    font-size: 8px;
+    text-align: center;
+    padding-top:10px;
+    padding-bottom: 10px;  
+}
